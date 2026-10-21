@@ -1,10 +1,10 @@
 package src;
 
-public class Par<K, V> {
+public class Boveda<K, V> {
     private K clave;
     private V valor;
 
-    public Par(K clave, V valor) {
+    public Boveda(K clave, V valor) {
         this.clave = clave;
         this.valor = valor;
     }
@@ -19,6 +19,6 @@ public class Par<K, V> {
 
     @Override
     public String toString() {
-        return "Par{clave=" + clave + ", valor=" + valor + "}";
+        return "Boveda{clave=" + clave + ", valor=" + valor + "}";
     }
 }
