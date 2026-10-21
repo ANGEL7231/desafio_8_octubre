@@ -1,6 +1,6 @@
 package src;
 
-public class Caja<T extends Comparable<T>> {
+public class BovedaArreglo<T extends Comparable<T>> {
     private Object[] elementos = new Object[4];
     private int cantidad = 0;
 
