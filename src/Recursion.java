@@ -1,5 +1,5 @@
 package src;
-public class Utilidades {
+public class Recursion {
 
     public static <T> void intercambiar(T[] arr, int i, int j) {
         T temporal = arr[i];
